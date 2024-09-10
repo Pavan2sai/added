@@ -1,0 +1,64 @@
+/* src/components/ProductSectionWrapper.css */
+.product-section {
+    z-index: 0;
+    border-radius: 14px;
+    background-color: #e5dff8;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.product-list-container {
+    background-color: #e5dff8;
+    margin-top: 1rem;
+    flex: 1;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    margin-bottom: 1rem;
+    z-index: 0;
+}
+
+.chatbox-container {
+    flex: 0 0 auto;
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.search-bar {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tab-content {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.MuiTabs-scroller.MuiTabs-fixed.css-jpln7h-MuiTabs-scroller {
+    z-index: 99;
+    position: fixed;
+    background-color: white;
+    width: 38%;
+    margin-top: -16px;
+
+    @media (max-width: 475px) {
+        width: 96%;
+    }
+}
+
+.css-orq8zk {
+    z-index: 99;
+    position: fixed;
+    background-color: white;
+    width: 38%;
+    margin-top: -16px;
+
+    @media (max-width: 475px) {
+        width: 96%;
+    }
+}

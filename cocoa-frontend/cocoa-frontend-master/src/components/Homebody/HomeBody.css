@@ -1,0 +1,236 @@
+/* src/components/MainContent.css */
+.main-content {
+    overflow-y: auto;
+    background-color: #e5dff8;
+    border-radius: 15px;
+    height: 100%;
+    /* @media (max-width: 475px) {
+        display: none;
+    } */
+}
+.main {
+    background-color: #ffffff;
+}
+.hero {
+    display: flex;
+    text-align: center;
+    padding: 2rem;
+    background-color: #5e239d;
+    color: white;
+}
+
+.hero h1 {
+    text-align: left;
+    font-size: 34px;
+    margin-bottom: 3rem;
+}
+
+.hero-image {
+    max-width: 100%;
+    border-radius: 15px;
+    @media (max-width: 475px) {
+        display: none;
+    }
+}
+
+.hero p {
+    margin-top: 3rem;
+    text-align: justify;
+    font-size: 19px;
+    margin-bottom: 3rem;
+    line-height: 25px;
+
+    @media (max-width: 475px) {
+        margin-top: 0px;
+        margin-bottom: 1rem;
+        font-size: 17px;
+    }
+}
+.hero-text {
+    max-width: 66%;
+
+    @media (max-width: 475px) {
+        max-width: 100%;
+    }
+}
+
+.financial-implication h2 {
+    text-align: center;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.hero button {
+    font-size: 16px;
+    color: #000000;
+    background-color: #f8d200;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.business-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.business-model {
+    background-color: #e5dff8;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.business-text {
+    flex: 1;
+    padding-left: 2rem;
+
+    @media (max-width: 475px) {
+        padding-left: 0px;
+    }
+}
+
+.business-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 475px) {
+        display: none;
+    }
+}
+
+.targeted-market,
+.management-team {
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.financial-implication {
+    margin-bottom: 2rem;
+}
+
+.business-model h2,
+.financial-implication h2,
+.targeted-market h2,
+.management-team h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.section-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.value-propositions {
+    margin-top: 1rem;
+}
+
+.value-propositions h3 {
+    color: #000;
+}
+
+.value-propositions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.value-propositions li {
+    margin-bottom: 0.5rem;
+}
+
+.financial-stats {
+    display: flex;
+    justify-content: space-around;
+    background-color: #5e239d;
+    color: white;
+    padding: 1rem;
+
+    @media (max-width: 475px) {
+        flex-direction: column;
+    }
+}
+
+.financial-stats div {
+    text-align: center;
+}
+
+.financial-stats h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.market-segments {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.market-segment {
+    flex: 1 1 calc(33.333% - 1rem);
+    background-color: white;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.segment-image {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 1rem;
+}
+
+.leaders,
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.leader,
+.team-member {
+    text-align: center;
+    margin: 1rem;
+}
+
+.leader img,
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+/* src/App.css */
+
+.main-content {
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    flex: 0 0 60%;
+    overflow-y: auto; /* Make the main content scrollable */
+    /* @media (max-width: 475px) {
+        display: none;
+    } */
+}
+
+.product-section {
+    /* text-align: justify; */
+    font-family: 'Lato', sans-serif;
+    flex: 0 0 40%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Make the product section scrollable */
+}
+.financial-stats h3 {
+    color: white;
+}

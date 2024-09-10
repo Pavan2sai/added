@@ -1,0 +1,59 @@
+.purchase-order {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    max-width: 600px;
+    background-color: #fff;
+}
+
+.header {
+    text-align: center;
+}
+
+.po-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.to-section,
+.description,
+.totals,
+.payment-details,
+.balance {
+    margin-bottom: 20px;
+}
+
+h2,
+h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+.footer-purchase-order {
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+}

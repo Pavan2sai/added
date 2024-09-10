@@ -1,0 +1,72 @@
+/* src/components/ProductDropupMenu/ProductDropupMenu.css */
+.dropup {
+    position: relative;
+    display: inline-block;
+}
+
+.dropup-content {
+    background-color: #e5dff8 !important;
+    width: 50%;
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    right: 25%;
+    background-color: white;
+    min-width: 40vh;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: auto;
+    max-height: 40vh;
+    overflow-y: auto;
+    border: 2px solid #5e239d;
+
+    @media (max-width: 475px) {
+        bottom: 129%;
+        right: 0px;
+    }
+}
+
+.dropup-content .product-item {
+    color: black;
+    margin: 10px 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropup-content .product-item img {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40px; /* Reduce image size */
+    height: 40px;
+}
+
+.dropup-content .product-item label {
+    display: flex;
+    align-items: center;
+}
+
+.submit-btn img {
+    width: 25px;
+    height: 25px;
+}
+
+.dropup-content {
+    display: block;
+}
+
+.products-btn img {
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.dropup-content .submit-btn {
+    text-align: right;
+    margin-right: 10px;
+}

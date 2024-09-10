@@ -1,0 +1,83 @@
+/* src/App.css */
+.app {
+    background-color: #f8f8f8;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    flex: 1;
+    overflow: hidden; /* Prevent overflow of the main content */
+}
+
+.main-content {
+    flex: 0 0 60%;
+    overflow-y: auto; /* Make the main content scrollable */
+    scrollbar-width: none;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+
+    /* @media (max-width: 475px) {
+        flex: 0 0 100%;
+    } */
+}
+
+/* .mobile {
+    @media (min-width: 768px) {
+        display: none;
+    }
+}
+
+.desktop {
+    @media (max-width: 768px) {
+        display: none;
+    }
+} */
+
+.mobile {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+}
+
+/* Desktop styles */
+.desktop {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .desktop {
+        display: flex;
+    }
+}
+
+.product-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 40%;
+    height: 100%;
+}
+
+.product-section {
+    flex: 1;
+    overflow-y: auto; /* Make the product section scrollable */
+}
+
+.chatbox-container {
+    flex: 0 0 auto;
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}

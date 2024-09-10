@@ -1,0 +1,36 @@
+/* src/components/ProductItem.css */
+.product-item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    @media (max-width: 475px) {
+        padding: 9px;
+    }
+}
+
+.product-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.chatWithSupplier {
+    display: flex-end;
+}
+
+.product-details span {
+    font-size: 16px;
+}

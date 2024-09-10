@@ -1,0 +1,51 @@
+.chat-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #d9bafa;
+    border-radius: 5px;
+    display: flex;
+    height: 3rem;
+    position: fixed;
+    right: auto;
+    top: 32%;
+    width: 33%;
+    z-index: 6;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.chat-header-details {
+    flex: 1;
+}
+
+.chat-header-name {
+    color: #5e239d;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.chat-cancel {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff2b2b;
+    margin-right: 15px;
+}
+
+.chat-cancel:hover {
+    transform: scale(1.1);
+    color: #ff0000;
+}
